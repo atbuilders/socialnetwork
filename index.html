@@ -870,36 +870,5 @@
 
     </div>
 
-    <script>
-    // Wait for the DOM to be fully loaded
-    document.addEventListener("DOMContentLoaded", function() {
-        // Function to toggle search bar visibility
-        function toggleSearchBar() {
-            var searchBar = document.querySelector('.search_bar input');
-            searchBar.classList.toggle('active');
-        }
-
-        // Function to toggle dark mode
-        function toggleDarkMode() {
-            var body = document.querySelector('body');
-            body.classList.toggle('dark-mode');
-        }
-
-        // Event listeners
-        // Toggle search bar visibility
-        document.querySelector('.search_bar i').addEventListener('click', toggleSearchBar);
-
-        // Toggle dark mode
-        document.querySelector('.fa-solid.fa-moon').addEventListener('click', toggleDarkMode);
-
-        // Load more posts functionality
-        document.querySelector('.loard button').addEventListener('click', function() {
-            // Assuming you have more posts to load and append dynamically
-            alert('Loading more posts...');
-            // Implement your logic to load more posts here
-        });
-    });
-</script>
-
 </body>
 </html>
